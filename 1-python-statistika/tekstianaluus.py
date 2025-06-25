@@ -13,7 +13,7 @@ def read_file(file_name):
 
 def count_words_and_characters(text):
     
-    # Arvutab sõnade ja mitte-tühikutest tähemärkide koguarvu
+    # Arvutab sõnade arvu
     words = text.split()
     non_space_characters = len(text.replace(" ", ""))
     return len(words), non_space_characters
